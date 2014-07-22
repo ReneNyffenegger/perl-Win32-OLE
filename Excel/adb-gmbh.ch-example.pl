@@ -4,7 +4,7 @@
 use warnings;
 use strict;
 
-use Win32::Ole;
+use Win32::OLE;
 
 use File::Spec qw(tmpdir);
 
