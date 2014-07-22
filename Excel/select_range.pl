@@ -3,8 +3,6 @@ use strict;
 
 use Win32::Ole;
 
-use File::Spec qw(tmpdir);
-
 my $excel = CreateObject Win32::OLE 'Excel.Application' or die;
 $excel->{'Visible'} = 1;
 
