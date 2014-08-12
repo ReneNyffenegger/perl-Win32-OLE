@@ -27,6 +27,6 @@ for my $row (2..100) {
 
 $chart -> setSourceData($sheet->range($sheet->cells(1,2), $sheet->cells(100,2)));
 
-$chart -> Export(File::Spec->canonpath(getcwd) . "\\sin.gif");
+$chart -> Export(File::Spec->canonpath(getcwd) . "\\sin.gif");  # Export must not be spelled «export»!
 
 $workbook -> {saved} = 1;
